@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_API_Pet_Positive_UpdatePet_005</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95f54569-2ea5-4454-8e58-82e529b16ef6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d8c159d-db69-4019-ad43-e3e867d67f5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e4ec305-9641-4457-8a1b-4801a4008b8a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'CattyUpdate'</defaultValue>
+      <description></description>
+      <id>5d8c159d-db69-4019-ad43-e3e867d67f5c</id>
+      <masked>false</masked>
+      <name>petName</name>
+   </variable>
+   <variable>
+      <defaultValue>'sold'</defaultValue>
+      <description></description>
+      <id>9e4ec305-9641-4457-8a1b-4801a4008b8a</id>
+      <masked>false</masked>
+      <name>petStatus</name>
+   </variable>
+</TestCaseEntity>

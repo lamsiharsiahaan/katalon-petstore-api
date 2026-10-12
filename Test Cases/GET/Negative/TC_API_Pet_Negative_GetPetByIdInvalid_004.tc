@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_API_Pet_Negative_GetPetByIdInvalid_004</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0da6e1d-848f-4e1b-b769-d2558f472307</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5adb057-49b2-4e81-9dc0-d3ef7eef7c8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'haha123'</defaultValue>
+      <description></description>
+      <id>a5adb057-49b2-4e81-9dc0-d3ef7eef7c8c</id>
+      <masked>false</masked>
+      <name>invalidPetId</name>
+   </variable>
+</TestCaseEntity>

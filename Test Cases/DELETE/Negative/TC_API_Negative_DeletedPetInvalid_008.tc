@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_API_Negative_DeletedPetInvalid_008</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b51e997a-6c2a-4947-9867-56d28d221adf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccf9a712-a96e-4ef3-a93a-0a71091f3bec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'99999999999999999999999'</defaultValue>
+      <description></description>
+      <id>ccf9a712-a96e-4ef3-a93a-0a71091f3bec</id>
+      <masked>false</masked>
+      <name>invalidPetId</name>
+   </variable>
+</TestCaseEntity>

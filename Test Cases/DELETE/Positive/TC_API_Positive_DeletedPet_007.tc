@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_API_Positive_DeletedPet_007</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f13bb44-0b8e-47f2-8ab5-853412c14c93</testCaseGuid>
+</TestCaseEntity>
