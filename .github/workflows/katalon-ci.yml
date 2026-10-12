@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Katalon Studio Test Suite
-        uses: katalon-studio/katalon-studio-github-action@v3
+        uses: katalon-studio/katalon-studio-github-action@v2
         with:
           version: '9.3.0'
           projectPath: '${{ github.workspace }}'
