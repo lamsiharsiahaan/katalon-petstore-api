@@ -1,0 +1,29 @@
+name: Katalon Studio E2E Test Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Katalon Studio Test Suite
+        uses: katalon-studio/katalon-studio-github-action@v3
+        with:
+          version: '9.3.0'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -runMode=console -projectPath="${{ github.workspace }}" -retry=0 -testSuitePath="Test Suites/TS_API_Pet" -executionProfile="default" -browserType="Web Service" -apiKey="${{ secrets.KATALON_PETSTORE_API }}"'
+
+      - name: Upload Test Report Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: katalon-test-reports
+          path: Reports/
