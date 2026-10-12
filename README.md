@@ -20,7 +20,7 @@ Memuat 8 skenario pengujian utama (Positif & Negatif):
 
 1. **POST /pet (Create)**
    * `TC_API_Pet_Positive_CreatePet_001`: Berhasil membuat data pet baru dan menyimpan ID dinamis.
-   * `TC_API_Pet_Negative_...`: Validasi penolakan server terhadap data/body yang invalid.
+   * `TC_API_Pet_Negative_CreatePet_002`: Validasi penolakan server terhadap data/body yang invalid.
 2. **GET /pet/{petId} (Read)**
    * `TC_API_Pet_Positive_GetPetById_003`: Berhasil mengambil data pet menggunakan ID dari hasil POST.
    * `TC_API_Pet_Negative_GetPetByIdInvalid_004`: Memastikan response `404 Not Found` saat pencarian ID fiktif.
@@ -29,7 +29,7 @@ Memuat 8 skenario pengujian utama (Positif & Negatif):
    * `TC_API_Pet_Negative_UpdatePetInvalid_006`: Validasi error saat update dengan ID/data invalid.
 4. **DELETE /pet/{petId} (Delete & Cleanup)**
    * `TC_API_Positive_DeletedPet_007`: Berhasil menghapus data pet dari server menggunakan ID dinamis.
-   * `TC_API_Pet_Negative_...`: Memastikan response `404 Not Found` saat menghapus ID yang tidak ada.
+   * `TC_API_Pet_Negative_DeletedPet_008`: Memastikan response `404 Not Found` saat menghapus ID yang tidak ada.
 
 ### **Test Suite Execution Flow**
 Rangkaian eksekusi E2E dijalankan secara berurutan:
