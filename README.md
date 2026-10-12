@@ -4,6 +4,9 @@ Project automation testing untuk **Swagger Petstore REST API** menggunakan **Kat
 
 ---
 
+## 🔗 Target Application
+* **Website URL**: [: https://petstore.swagger.io/](https://petstore.swagger.io/)
+
 ## 📋 1. Project Description
 Project ini bertujuan untuk memvalidasi fungsionalitas dan ketahanan REST API pada endpoint Petstore (`https://petstore.swagger.io/v2/pet`). 
 
