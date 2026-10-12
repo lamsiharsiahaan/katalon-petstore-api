@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Menampilkan id yang ingin dihapus yang diambil dari globalvariable
 println('hapus Pet dengan ID: ' + GlobalVariable.petId)
 
 // Kirim request DELETE menggunakan GlobalVariable.petId yang sudah dibuat sebelumnya
